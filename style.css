@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: "sego ui light";
+}
+.container p{
+      font-family: "Dancing Script", cursive;
+      font-size: 230%;
+
+}
+.home{
+    background-image: url('images/images/shutterstock_277750193.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home .container {
+    width:50%;
+    text-align: center;
+    margin: 100px auto 0px;
+    color: white;
+}
+
+.home .container a{
+
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    background-color:#ffffff ;
+}
+.home .container .btn-1{
+    background-color: #C4AD83;
+}
+
+.home .nav img{
+    margin:10px;
+    width: 100px;
+    float: left;
+}
+.home .nav a{
+    float: right;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.home .nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+
