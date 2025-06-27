@@ -64,4 +64,48 @@ font-family: "sego ui light";
     overflow: hidden;
 }
 
+.out-door{
+    background-image: url('images/images/bgs.jpg');
+    /* background-size: 100% 100%; */
+    height: 300px;
+    background-attachment: fixed;
+    /* overflow: hidden; */
 
+}
+.details{
+    width: 20%;
+    text-align: center;
+    color: #000;
+    float: left;
+
+}
+.details img{
+    width: 100%;
+    border-radius: 50%;
+}
+.details hr{
+    width: 50px;
+}
+.items{
+overflow: hidden;
+}
+
+.items .item{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.items .item hr{
+    width: 70px;
+    margin: 10px auto;
+}
+.items .item img{
+    padding-bottom: 15px;
+    width: 75%;
+    border-radius: 50%;
+}
+
+.items .item p{
+    padding: 10px;
+    color: gray;
+}
